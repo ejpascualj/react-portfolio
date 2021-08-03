@@ -30,7 +30,7 @@ function Resume() {
         .
       </p>
       <div class="row justify-content-center">
-        <iframe
+        <iframe title="resumePDF"
           src={ resume }
           width="90%"
           height="500px"
