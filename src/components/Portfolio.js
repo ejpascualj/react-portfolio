@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import '../App.css';
 
 function Portfolio() {
+    let featuredCardURL = 'https://ejpascualj.github.io/BM-Trade-Analysis/';
+    let card01URL = 'https://ejpascualj.github.io/weather-dashboard/';
+    let card02URL = 'https://ejpascualj.github.io/password-generator/';
+    let card03URL = 'https://ejpascualj.github.io/code-quiz/';
+
     return(
         <div class="container p-1 pt-4" id="work">
             <h2 class="text-center">Work</h2>
@@ -14,10 +19,10 @@ function Portfolio() {
                         <p class="card-text">Provides real-time data for the USD/MXN exchange rate, related news, and
                             historical trends to allow traders to make informed decisions. This project was done in
                             collaboration with GitHub users danrub98, betovaldez, and andresplasenciaborja.</p>
-                        <a href="https://ejpascualj.github.io/BM-Trade-Analysis/" target="_blank"
+                        <a href={featuredCardURL} target="_blank"
                             class="btn btn-primary">Let's
                             Trade!</a>
-                        <a href="https://github.com/ejpascualj/BM-Trade-Analysis" target="_blank"
+                        <a href={featuredCardURL} target="_blank"
                             class="btn btn-secondary">Repo</a>
                     </div>
                 </div>
@@ -34,9 +39,9 @@ function Portfolio() {
                                 Displays the current weather for a city and the forecast for the upcoming week using
                                 Open Weather Map API, and locally stores your latest searches.
                             </p>
-                            <a href="https://ejpascualj.github.io/weather-dashboard/" target="_blank"
+                            <a href={card01URL} target="_blank"
                                 class="btn btn-primary">How's the weather?</a>
-                            <a href="https://github.com/ejpascualj/weather-dashboard" target="_blank"
+                            <a href={card01URL} target="_blank"
                                 class="btn btn-secondary">Repo</a>
                         </div>
                     </div>
@@ -51,10 +56,10 @@ function Portfolio() {
                                 Generates a random password based on user input, ranging between 8 and 128 characters,
                                 and containing uppercase, lowercase, numbers, and special characters.
                             </p>
-                            <a href="https://ejpascualj.github.io/password-generator/" target="_blank"
+                            <a href={card02URL} target="_blank"
                                 class="btn btn-primary">Generate
                                 a Password!</a>
-                            <a href="https://github.com/ejpascualj/password-generator" target="_blank"
+                            <a href={card02URL} target="_blank"
                                 class="btn btn-secondary">Repo</a>
                         </div>
                     </div>
@@ -69,9 +74,9 @@ function Portfolio() {
                                 Timed and interactive javascript coding quiz with multiple choice question, coded in
                                 html and javascript and designed using bootstrap.
                             </p>
-                            <a href="https://ejpascualj.github.io/code-quiz/" target="_blank"
+                            <a href={card03URL} target="_blank"
                                 class="btn btn-primary">Quiz your JS!</a>
-                            <a href="https://github.com/ejpascualj/code-quiz" target="_blank"
+                            <a href={card03URL} target="_blank"
                                 class="btn btn-secondary">Repo</a>
                         </div>
                     </div>
