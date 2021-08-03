@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../App.css';
+import '../assets/css/style.css';
 
 function Portfolio() {
     let featuredCardURL = 'https://ejpascualj.github.io/BM-Trade-Analysis/';
