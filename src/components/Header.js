@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     return(
-        <div>
+        <header>
         <nav class="navbar navbar-expand-lg fixed-top navbar-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@ function Header() {
                 </ul>
             </div>
         </nav>
-    </div>
+    </header>
     );
 }
 
