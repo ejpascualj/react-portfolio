@@ -1,4 +1,6 @@
 import React from "react";
+import '../App.css';
+import resume from '../../public/assets/resume/RESUME.pdf';
 
 function Resume() {
   return (
@@ -19,7 +21,7 @@ function Resume() {
       <p>
         You can view my latest resume below or download a copy{" "}
         <a
-          href=".../public/assets/resume/resume.pdf"
+          href={ resume }
           download="Resume-EmilioPascual"
           target="_blank"
         >
@@ -29,7 +31,7 @@ function Resume() {
       </p>
       <div class="row justify-content-center">
         <iframe
-          src=".../public/assets/resume/RESUME.pdf"
+          src={ resume }
           width="90%"
           height="500px"
         ></iframe>
