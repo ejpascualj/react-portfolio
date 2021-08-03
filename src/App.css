@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+ /* 0. GENERAL PROPERTIES */
+
+ :root{
+  --DarkPurple: #310A31;
+  --RhytmPurple: #847996;
+  --GreenSheen: #88B7B5;
+  --CambridgeBlue: #A7CAB1;
+  --EggshellWhite:  #F4ECD6;
+  --DutchWhite: #EAD9AE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* PROPERTIES */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--EggshellWhite);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* BUTTONS */
+.btn-primary {
+  color: var(--EggshellWhite);
+  background: var(--DarkPurple);
+  border-color: var(--DarkPurple);
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-primary:hover {
+  color: var(--EggshellWhite);
+  background: var(--RhytmPurple);
+  border-color: var(--RhytmPurple);
 }
 
-.App-link {
-  color: #61dafb;
+.btn-secondary {
+  color: var(--DarkPurple);
+  background: var(--GreenSheen);
+  border-color: var(--GreenSheen);
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-secondary:hover {
+  color: var(--DarkPurple);
+  background: var(--CambridgeBlue);
+  border-color: var(--CambridgeBlue);
 }
+
+/* NAVIGATION BAR */
+.navbar {
+  background: var(--RhytmPurple);
+}
+
+/* CARDS */
+.card-body{
+  background: var(--DutchWhite);
+}
+
+/* LINKS */
+a {
+  color: var(--RhytmPurple);
+  text-decoration: underline;
+}
+a:hover{
+  color: var(--DarkPurple)
+}
+
+/* scrolling beahvior */
+html {
+  scroll-behavior: smooth;
+} 
+
+
