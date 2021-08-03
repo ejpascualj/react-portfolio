@@ -6,7 +6,7 @@ function Home() {
         <div class="container p-1 pt-4" id="about-me">
             <h2 class="mt-0 text-center">About Me</h2>
             <div class="media">
-                <img src=".../public/assets/images/about-me/Headshot.jpg" class="align-self-center mr-3" alt="headshot"/>
+                <img src="../assets/images/about-me/Headshot.jpg" class="align-self-center mr-3" alt="headshot"/>
                 <div class="media-body">
                     <p>
                         Hi There! Thanks for visiting my portfolio. My name is Emilio and I'm a chemical engineer (and
