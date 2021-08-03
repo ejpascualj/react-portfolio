@@ -11,12 +11,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Home/>
-      <Portfolio/>
-      <Resume/>
-      <Contact/>
-      <Footer/>   
+      <Header />
+      <Home />
+      <Portfolio />
+      <Resume />
+      <Contact />
+      <Footer />   
     </div>
   );
     /*<div className="App">
