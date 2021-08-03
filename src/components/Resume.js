@@ -29,7 +29,7 @@ function Resume() {
       </p>
       <div class="row justify-content-center">
         <iframe
-          src="assets\resume\RESUME.pdf"
+          src=".../public/assets/resume/RESUME.pdf"
           width="90%"
           height="500px"
         ></iframe>
