@@ -1,0 +1,72 @@
+ /* 0. GENERAL PROPERTIES */
+
+ :root{
+    --DarkPurple: #310A31;
+    --RhytmPurple: #847996;
+    --GreenSheen: #88B7B5;
+    --CambridgeBlue: #A7CAB1;
+    --EggshellWhite:  #F4ECD6;
+    --DutchWhite: #EAD9AE;
+}
+
+/* PROPERTIES */
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--EggshellWhite);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+/* BUTTONS */
+.btn-primary {
+    color: var(--EggshellWhite);
+    background: var(--DarkPurple);
+    border-color: var(--DarkPurple);
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    color: var(--EggshellWhite);
+    background: var(--RhytmPurple);
+    border-color: var(--RhytmPurple);
+}
+
+.btn-secondary {
+    color: var(--DarkPurple);
+    background: var(--GreenSheen);
+    border-color: var(--GreenSheen);
+    text-decoration: none;
+}
+
+.btn-secondary:hover {
+    color: var(--DarkPurple);
+    background: var(--CambridgeBlue);
+    border-color: var(--CambridgeBlue);
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background: var(--RhytmPurple);
+}
+
+/* CARDS */
+.card-body{
+    background: var(--DutchWhite);
+}
+
+/* LINKS */
+a {
+    color: var(--RhytmPurple);
+    text-decoration: underline;
+}
+a:hover{
+    color: var(--DarkPurple)
+}
+
+/* scrolling beahvior */
+html {
+    scroll-behavior: smooth;
+} 
+
+
