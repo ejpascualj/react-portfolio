@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import '../../assets/css/style.css';
+import imgfeatured from '../../assets/images/work/peso-dolar.jpg';
+import imgcard01 from '../../assets/images/work/weather.jpg';
+import imgcard02 from '../../assets/images/work/password.jpg';
+import imgcard03 from '../../assets/images/work/quiz.png';
 
 function Portfolio() {
     let featuredCardURL = 'https://ejpascualj.github.io/BM-Trade-Analysis/';
     let card01URL = 'https://ejpascualj.github.io/weather-dashboard/';
     let card02URL = 'https://ejpascualj.github.io/password-generator/';
     let card03URL = 'https://ejpascualj.github.io/code-quiz/';
-    let imgfeatured = '../../assets/images/work/peso-dolar.jpg';
-    let imgcard01 = '../../assets/images/work/weather.jpg';
-    let imgcard02 = '../../assets/images/work/password.jpg';
-    let imgcard03 = '../../assets/images/work/quiz.png';
     
     return(
         <div class="container p-1 pt-4" id="work">
