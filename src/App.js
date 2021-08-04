@@ -14,9 +14,9 @@ function App() {
       <Router>
         <Header />
         <Home />
-        <Portfolio />
-        <Resume />
-        <Contact />
+        {/* <Portfolio /> */}
+        {/* <Resume /> */}
+        {/* <Contact /> */}
         <Footer />
       </Router>
     </div>
