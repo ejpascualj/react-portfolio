@@ -6,13 +6,11 @@ function Portfolio() {
     let card01URL = 'https://ejpascualj.github.io/weather-dashboard/';
     let card02URL = 'https://ejpascualj.github.io/password-generator/';
     let card03URL = 'https://ejpascualj.github.io/code-quiz/';
-    let img = {
-        featured: '../../assets/images/work/peso-dolar.jpg',
-        card01: '../../assets/images/work/weather.jpg',
-        card02: '../../assets/images/work/password.jpg',
-        card03: '../../assets/images/work/quiz.png'
-        }
-
+    let imgfeatured = '../../assets/images/work/peso-dolar.jpg';
+    let imgcard01 = '../../assets/images/work/weather.jpg';
+    let imgcard02 = '../../assets/images/work/password.jpg';
+    let imgcard03 = '../../assets/images/work/quiz.png';
+    
     return(
         <div class="container p-1 pt-4" id="work">
             <h2 class="text-center">Work</h2>
@@ -20,7 +18,7 @@ function Portfolio() {
             <div class="row d-flex justify-content-center p-2">
                 {/*style="width: 66rem;"*/}
                 <div class="card" > 
-                    <img src={img.featured} class="" alt=""/>
+                    <img src={imgfeatured} class="" alt=""/>
                     <div class="card-body">
                         <h5 class="card-title">BM Trade Analysis</h5>
                         <p class="card-text">Provides real-time data for the USD/MXN exchange rate, related news, and
@@ -40,7 +38,7 @@ function Portfolio() {
                 <div class="col-sm p-1 d-flex justify-content-center">
                     <div class="card" >
                         {/*style="width: 18rem;"*/}
-                        <img src={img.card01} class="card-img-top" alt=""/>
+                        <img src={imgcard01} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Weather Dashboard</h5>
                             <p class="card-text">
@@ -58,7 +56,7 @@ function Portfolio() {
                 <div class="col-sm p-1 d-flex justify-content-center">
                     {/*style="width: 18rem;"*/}
                     <div class="card" >
-                        <img src={img.card02} class="card-img-top" alt=""/>
+                        <img src={imgcard02} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Password Generator</h5>
                             <p class="card-text">
@@ -77,7 +75,7 @@ function Portfolio() {
                 <div class="col-sm p-1 d-flex justify-content-center">
                     {/*style="width: 18rem;"*/}
                     <div class="card" >
-                        <img src={img.card03} class="card-img-top" alt=""/>
+                        <img src={imgcard03} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Coding Quiz</h5>
                             <p class="card-text">
