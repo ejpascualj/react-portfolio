@@ -6,6 +6,12 @@ function Portfolio() {
     let card01URL = 'https://ejpascualj.github.io/weather-dashboard/';
     let card02URL = 'https://ejpascualj.github.io/password-generator/';
     let card03URL = 'https://ejpascualj.github.io/code-quiz/';
+    let img = {
+        featured: '../../assets/images/work/peso-dolar.jpg',
+        card01: '../../assets/images/work/weather.jpg',
+        card02: '../../assets/images/work/password.jpg',
+        card03: '../../assets/images/work/quiz.png'
+        }
 
     return(
         <div class="container p-1 pt-4" id="work">
@@ -13,7 +19,7 @@ function Portfolio() {
             {/*FEATURED CARD */}
             <div class="row d-flex justify-content-center p-2">
                 <div class="card" style="width: 66rem;"> 
-                    <img src="../assets/images/work/peso-dolar.jpg" class="" alt=""/>
+                    <img src={img.featured} class="" alt=""/>
                     <div class="card-body">
                         <h5 class="card-title">BM Trade Analysis</h5>
                         <p class="card-text">Provides real-time data for the USD/MXN exchange rate, related news, and
@@ -32,7 +38,7 @@ function Portfolio() {
                 {/*CARD 01 */}
                 <div class="col-sm p-1 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/work/weather.jpg" class="card-img-top" alt=""/>
+                        <img src={img.card01} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Weather Dashboard</h5>
                             <p class="card-text">
@@ -49,7 +55,7 @@ function Portfolio() {
                 {/*CARD 02 */}
                 <div class="col-sm p-1 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/work/password.jpg" class="card-img-top" alt=""/>
+                        <img src={img.card02} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Password Generator</h5>
                             <p class="card-text">
@@ -67,7 +73,7 @@ function Portfolio() {
                 {/*CARD 03 */}
                 <div class="col-sm p-1 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="../assets/images/work/quiz.png" class="card-img-top" alt=""/>
+                        <img src={img.card03} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Coding Quiz</h5>
                             <p class="card-text">

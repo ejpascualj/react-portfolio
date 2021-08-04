@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Header />
         <Home />
-        {/* <Portfolio /> */}
+        <Portfolio />
         <Resume />
         <Contact />
         <Footer />
