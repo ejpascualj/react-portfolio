@@ -18,7 +18,7 @@ function Portfolio() {
             <h2 class="text-center">Work</h2>
             {/*FEATURED CARD */}
             <div class="row d-flex justify-content-center p-2">
-                <div class="card" style="width: 66rem;"> 
+                <div class="card" {/*style="width: 66rem;"*/}> 
                     <img src={img.featured} class="" alt=""/>
                     <div class="card-body">
                         <h5 class="card-title">BM Trade Analysis</h5>
@@ -37,7 +37,7 @@ function Portfolio() {
             <div class="row d-flex justify-content-center p-2">
                 {/*CARD 01 */}
                 <div class="col-sm p-1 d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" {/*style="width: 18rem;"*/}>
                         <img src={img.card01} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Weather Dashboard</h5>
@@ -54,7 +54,7 @@ function Portfolio() {
                 </div>
                 {/*CARD 02 */}
                 <div class="col-sm p-1 d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" {/*style="width: 18rem;"*/}>
                         <img src={img.card02} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Password Generator</h5>
@@ -72,7 +72,7 @@ function Portfolio() {
                 </div>
                 {/*CARD 03 */}
                 <div class="col-sm p-1 d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" {/*style="width: 18rem;"*/}>
                         <img src={img.card03} class="card-img-top" alt=""/>
                         <div class="card-body">
                             <h5 class="card-title">Coding Quiz</h5>
