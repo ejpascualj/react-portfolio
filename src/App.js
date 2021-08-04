@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        {/* {<Home />
+        <Home />
         <Portfolio />
         <Resume />
-        <Contact /> */}
+        <Contact />
         <Footer />
       </Router>
     </div>
