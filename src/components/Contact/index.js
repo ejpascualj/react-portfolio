@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/css/style.css';
+import '../../assets/css/style.css';
 
 function Contact() {
     let emailURL = 'mailto:ejpascualj@gmail.com';
